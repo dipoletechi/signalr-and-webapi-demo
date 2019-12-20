@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRApp", "SignalRApp\SignalRApp.csproj", "{B93FE73B-4E22-4492-AA1D-55FDA41D1290}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRclient", "SignalRclient\SignalRclient.csproj", "{31263F2A-B8C0-4C22-815C-360C0ADC275A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{646CA59C-DD98-4E9E-AB42-28F435EBA36C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93FE73B-4E22-4492-AA1D-55FDA41D1290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93FE73B-4E22-4492-AA1D-55FDA41D1290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93FE73B-4E22-4492-AA1D-55FDA41D1290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93FE73B-4E22-4492-AA1D-55FDA41D1290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31263F2A-B8C0-4C22-815C-360C0ADC275A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31263F2A-B8C0-4C22-815C-360C0ADC275A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31263F2A-B8C0-4C22-815C-360C0ADC275A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31263F2A-B8C0-4C22-815C-360C0ADC275A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646CA59C-DD98-4E9E-AB42-28F435EBA36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646CA59C-DD98-4E9E-AB42-28F435EBA36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646CA59C-DD98-4E9E-AB42-28F435EBA36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646CA59C-DD98-4E9E-AB42-28F435EBA36C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5383E94-9CA4-412F-A740-25E44387938E}
+	EndGlobalSection
+EndGlobal
